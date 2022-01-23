@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyclimb"
+version = "0.1.0"
+description = "A library to easily convert climbing route grades between different grading systems."
+authors = ["ilias-ant <ilias.antonopoulos@yahoo.gr>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+isort = "^5.10.1"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
