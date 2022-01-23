@@ -3,10 +3,24 @@ name = "pyclimb"
 version = "0.1.0"
 description = "A library to easily convert climbing route grades between different grading systems."
 authors = ["ilias-ant <ilias.antonopoulos@yahoo.gr>"]
+readme = "README.md"
 license = "MIT"
+homepage = "https://pypi.org/project/pyclimb"
+repository = "https://github.com/ilias-ant/pyclimb"
+keywords = ["pip", "converter", "climbing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Other Audience",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3 :: Only",
+    
+]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.7,<3.11"
 
 [tool.poetry.dev-dependencies]
 black = "^21.12b0"
