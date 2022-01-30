@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyclimb"
-version = "0.1.0"
+version = "0.2.0"
 description = "A library to easily convert climbing route grades between different grading systems."
 authors = ["ilias-ant <ilias.antonopoulos@yahoo.gr>"]
 readme = "README.md"

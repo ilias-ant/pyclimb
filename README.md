@@ -21,17 +21,19 @@ pip install pyclimb
 import pyclimb
 
 
-pyclimb.convert(grade='6a+', to='YDS')
+pyclimb.convert(grade='6a+', grade_system='French', to='YDS')
 // '5.10b'
-pyclimb.convert(grade='9c', to='YDS')
+pyclimb.convert(grade='9c', grade_system='French', to='YDS')
 // '5.15d'
+pyclimb.convert(grade='5.12a', grade_system='YDS', to='French')
+// '7a+'
 ```
 
 ## Note
 
 This is a package under active development. Currently, only the following conversions are being supported:
 
-- [sport climbing] conversion from the French grading system to the YDS ([Yosemite Decimal System](https://en.wikipedia.org/wiki/Yosemite_Decimal_System)).
+- [sport climbing] conversion between French grading system and the YDS ([Yosemite Decimal System](https://en.wikipedia.org/wiki/Yosemite_Decimal_System)).
 
 Other conversions and different types of climbing will be included soon. These changes may drastically change the user-facing API, so do consult the semantic versioning of this package before upgrading to a newer version.
 
