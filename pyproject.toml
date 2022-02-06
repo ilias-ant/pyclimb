@@ -19,6 +19,9 @@ classifiers = [
     
 ]
 
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/ilias-ant/pyclimb/issues"
+
 [tool.poetry.dependencies]
 python = ">=3.7,<3.11"
 
