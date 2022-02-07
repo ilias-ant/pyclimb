@@ -63,12 +63,12 @@ Lastly, the **footer** should strictly be reserved for referencing issues, other
 For example, a typical commit could be:
 
 ```
-[feat]: added rate-limiter to the DataGovClient
+[feat]: expose supported grading systems
 
-Requests dispatched from the client towards data.gov.gr API now obey a rate-limit. 
-This ensures that API is not "hammered' at any given moment.
+User now has the ability to inspect pyclimb's supported grading systems
+by calling pyclimb.grading_systems
 
-closes #4242
+closes #123
 ```
 
 ## What are you talking about 😕? 
