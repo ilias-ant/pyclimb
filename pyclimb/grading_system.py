@@ -2,6 +2,7 @@ import enum
 
 
 class GradingSystem(enum.Enum):
+    """The supported grading systems."""
 
-    french = "French"
-    yds = "YDS"
+    FRENCH = "French"
+    YDS = "YDS"
