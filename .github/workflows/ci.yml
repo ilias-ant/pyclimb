@@ -32,7 +32,7 @@ jobs:
       run: |
         poetry check
         poetry install
-    - name: Inspect Code Decurity
+    - name: Inspect Code Security
       run: |
         poetry run bandit -r pyclimb
     - name: Inspect Code Formatting
